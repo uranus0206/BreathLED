@@ -6,14 +6,14 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-      <file>$PROJ_DIR$\Debug\Exe\BreathLED.d43</file>
-      <file>$PROJ_DIR$\Debug\Exe\BreathLED.ulp</file>
-      <file>$PROJ_DIR$\Debug\Obj\BreathLED.pbd</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
       <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\BreathLED.ulp</file>
+      <file>$PROJ_DIR$\Debug\Exe\BreathLED.d43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\BreathLED.pbd</file>
       <file>$TOOLKIT_DIR$\inc\msp430g2553.h</file>
       <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
       <file>$TOOLKIT_DIR$\config\lnk430G2553.xcl</file>
@@ -23,7 +23,7 @@
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 3</file>
+          <file> 5</file>
         </tool>
         <tool>
           <name>ULP430</name>
@@ -40,17 +40,17 @@
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 0</file>
+          <file> 1</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 8 7 2</file>
+          <file> 8 3 2</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 8 7 2</file>
+          <file> 8 3 2</file>
         </tool>
       </inputs>
     </file>
